@@ -6,7 +6,7 @@ const team = [
         description: "Liz is a passionate advocate for sustainable agriculture and food security. She has over 10 years of experience in the agricultural sector and is dedicated to empowering farmers through education and resources.",
         image: "assets/img/ig-posts/liz2.jpg",
         contact: {
-            email: "info@agrilearnandtalks.com",
+            email: "info@agrilearnandtalks.org",
             phone: "+254 741403197",
             social: {
                 facebook: "#",

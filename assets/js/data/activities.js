@@ -4,28 +4,25 @@ const activities = [
         title: "Re-Storing the Environment",
         category: "Restoration & Conservation",
         description: `<p>
-                Born into a family of farmers in Western Kenya, Elizabeth Juma grew up surrounded by lush, fertile lands that were the lifeblood of her community. However, as she grew up, she was shocked to witness the gradual degradation of these lands. What was once teeming with life had become barren ground due to an onslaught of flooding and price hikes.
-                <br><br>
-                These environmental and economic challenges forced people to abandon their livelihoods as farmers. Instead of planting the way they used to, families were no longer able to rely on farming as a source of income and had to turn to other methods of sustaining themselves.
-                <br><br>
-                Galvanized by the challenges facing smallholder farmers in her community, Juma made it her mission to invest in agricultural training, education, and empowerment. While Juma received a degree in journalism and mass communication, she didn’t pursue a career in traditional media. Instead, she utilized these skills to advocate for ecosystem restoration by launching her project: <a href="#">Agri Learn and Talks</a>.
-                <br><br>
-                Since 2019, Juma has invited field experts to host bi-weekly meetings and trainings to improve soil conservation practices. Using innovative outreach methods, such as posting flyers in town centers and leveraging town hall meetings, she reaches vulnerable populations through passionate recruitment. She believes that everyone is entitled to this knowledge and advocates for anyone to attend the workshops to learn.
-                <br><br>
-                What started as a voluntary effort led by herself and her cousin has now expanded into a team of seven volunteers who collaborate to host engaging workshops.
-                <br><br>
-                Through her workshops, Juma also aims to challenge the notion that farming is for “old people”. By targeting vulnerable populations such as women and youth, she hopes to remind people that <strong>farming is not just a traditional occupation; it has the potential to empower individuals and transform livelihoods.</strong>
-                <br><br>
-                While she has been running these workshops since 2019, receiving the RE!Grant in 2024 enabled Juma to expand her efforts and minimize out-of-pocket costs. With the financial support, she started distributing maize and bean seedlings in addition to hosting free workshops. <strong>Her philosophy is simple: As long as people are willing to learn, she is willing to spread the knowledge.</strong>
-                <br><br>
-                When Derrick Wachaya, Head of RE!Granting, visited Juma’s project, he was astonished by the masses of people lining up for the workshops. Seeing the impact of Juma’s project, he was “struck by the power of grassroots initiatives to drive meaningful change.” He writes, “[Agri Learn and Talks] is not just about distributing seeds and fertilizers; it is about empowering communities, preserving the environment, and building a brighter future for generations to come.” Since beginning her project, Juma has directly impacted 45 homes in Kabura village, Alego Usonga, Siaya County, and Luo community. Indirectly, her project has impacted 5000 people.
-                <br><br>
-                However, not everyone responds to her initiative positively. When offering seedlings and fertilizer for free to the community, she often faces skepticism about her intentions. Persistent in her mission, she emphasizes that her work is for them, and what she really cares about is combating climate change challenges and helping vulnerable communities.
-                <br><br>
-                Since beginning her efforts to restore the environment, Juma has noticed an improvement in the land. Everywhere she walks now, she encounters maize plants, bean plants, and vegetable plants. Beyond the financial benefits of receiving Re-Earth’s support, she claims that “this grant helped put these people back to what they were used to.”
-                <br><br>
-                When asked what is the biggest lesson she has learned from doing this work, she says: “You need help. You can’t do it alone…Whenever you share, don’t underestimate who you’ve shared it with. Just share.” Juma views her training as a long-term investment and is confident that her work will continue to support smallholder farmers while building climate resiliency. Looking forward, she hopes to expand her project further, reaching even more communities and continuing to cultivate a culture of sustainability and self-sufficiency among women and youth.
-            </p>`,
+            I was raised in a farming family in Western Kenya, where the land used to feel almost magical—green, productive, and nourishing to everyone around us. As I grew older, I watched that same land struggle under constant flooding, unpredictable weather, and rising costs. It was heartbreaking to see fields that once fed whole families slowly lose their strength.<br><br>
+
+            Many people around me gave up farming altogether. It wasn’t because they wanted to, but because they simply couldn’t survive from it anymore. Watching this decline pushed me to act. Even though I studied journalism and mass communication, I realized that my voice and my skills would be more meaningful if I used them to support farmers and restore the environment. That is how <strong>Agri Learn and Talks</strong> was born.<br><br>
+
+            Since 2019, I’ve been inviting agricultural experts to join me in holding trainings every two weeks. We talk about soil conservation, climate-smart practices, and simple techniques that farmers can use even with limited resources. I reach out however I can—flyers in market centers, town hall announcements, and lots of one-on-one conversations. I truly believe that everyone deserves access to knowledge, especially the people most affected by climate change.<br><br>
+
+            What began as a small voluntary effort with my cousin has now grown into a team of seven dedicated volunteers. Together, we host workshops that are practical, welcoming, and sometimes even life-changing. I am especially passionate about showing young people and women that farming isn’t an outdated occupation—it is a powerful tool for independence and community transformation.<br><br>
+
+            Receiving the <strong>RE!Grant</strong> in 2024 changed everything. It allowed me to reduce the personal costs of running the program and start giving out maize and bean seedlings to the people who attend our sessions. My approach is simple: <em>if someone is willing to learn, I’m willing to share what I know.</em><br><br>
+
+            When Derrick Wachaya from RE!Granting visited, he was amazed by the turnout—long lines of people eager to attend the workshops. His visit reminded me just how far a grassroots initiative can go when the community embraces it. So far, our work has directly supported 45 households in Kabura village and indirectly reached thousands more.<br><br>
+
+            Of course, not everyone trusts the process right away. Sometimes people question why the seedlings and fertilizer are free or what hidden motives I might have. But I always reassure them: I am doing this for our people, for our land, and for the climate challenges we are all facing.<br><br>
+
+            And little by little, I’ve started to see the difference. When I walk through the village now, I see more maize, more beans, more vegetables—signs that the land is recovering. The grant didn’t just support workshops; it helped restore livelihoods.<br><br>
+
+            The most important lesson I’ve learned is that <strong>you can’t do this kind of work alone</strong>. Sharing knowledge, asking for help, and trusting the community are all part of the journey. Looking ahead, I hope to expand Agri Learn and Talks even further—reaching new communities, uplifting more women and youth, and strengthening a culture of sustainability and resilience for the future.
+            </p>
+            `,
         images: [
             "assets/img/ig-posts/lizandfarmer.jpeg",
         ],
