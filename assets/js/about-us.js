@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <div class="swiper-slide">
                 <div class="farmer-style-one-item">
                     <div class="thumb">
-                        <img src="${farmer.image}" alt="Image Not Found" style="width: 100%; height: 400px; object-fit: cover;">
+                        <img src="${farmer.image}" alt="${farmer.name}" style="width: 100%; height: 400px; object-fit: cover;">
                         <div class="social">
                             <i class="fas fa-share-alt"></i>
                             <ul>

@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <div class="col-lg-4 col-md-6 service-one-single">
                 <div class="service-style-one-item">
                     <div class="thumb">
-                        <img src="${service.images[0]}" alt="Image Not Found" style="width: 100%; border-radius: 6px; object-fit: cover;">
+                        <img src="${service.images[0]}" alt="${service.title}" style="width: 100%; border-radius: 6px; object-fit: cover;">
                     </div>
                     <div class="info">
                         <div class="top">
@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <div class="swiper-slide">
                 <div class="testimonial-style-one">
                     <div class="thumb">
-                        <img src="${testimonial.image}" alt="Imge Not Found" style="aspect-ratio: 1 / 1; object-fit: cover;">
+                        <img src="${testimonial.image}" alt="${testimonial.name}" style="aspect-ratio: 1 / 1; object-fit: cover;">
                     </div>
                     <div class="info">
                         <img src="assets/img/shape/quote-big.png" alt="Image Not Found">

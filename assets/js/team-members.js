@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <div class="col-lg-4 col-md-6 farmer-stye-one">
                 <div class="farmer-style-one-item">
                     <div class="thumb">
-                        <img src="${teamMember.image}" alt="Image Not Found" style="width: 100%; height: 400px; object-fit: cover;">
+                        <img src="${teamMember.image}" alt="${teamMember.name}" style="width: 100%; height: 400px; object-fit: cover;">
                         <div class="social">
                             <i class="fas fa-share-alt"></i>
                             <ul>

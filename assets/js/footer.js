@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <li>
                 <div class="thumb">
                     <a href="activity-details.html?id=${activity.id}">
-                        <img src="${activity.images[0]}" alt="Thumb" style="aspect-ratio: 1 / 1; object-fit: cover;">
+                        <img src="${activity.images[0]}" alt="${activity.title}" style="aspect-ratio: 1 / 1; object-fit: cover;">
                     </a>
                 </div>
                 <div class="info">
