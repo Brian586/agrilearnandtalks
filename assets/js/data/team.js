@@ -19,12 +19,29 @@ const team = [
     {
         id: "2",
         name: "Adrian Iminza",
-        role: "Volunteer",
-        description: "Adrian is a dedicated volunteer with a background in environmental science. He is passionate about promoting sustainable practices and helping communities adapt to climate change.",
+        role: "Operations Director",
+        description: "Adrian is a dedicated director with a background in environmental science. She is passionate about promoting sustainable practices and helping communities adapt to climate change.",
         image: "assets/img/ig-posts/volunteer.jpeg",
         contact: {
             email: "",
             phone: "+254 712343678",
+            social: {
+                facebook: "#",
+                twitter: "#",
+                instagram: "#",
+                linkedin: "#",
+            },
+        },
+    },
+    {
+        id: "3",
+        name: "Lenox Owino",
+        role: "Communications Manager",
+        description: "Lenox is a skilled communicator with a passion for storytelling. He works to amplify the voices of farmers and share their stories with a wider audience.",
+        image: "assets/img/ig-posts/lenox-owino.jpeg",
+        contact: {
+            email: "",
+            phone: "",
             social: {
                 facebook: "#",
                 twitter: "#",

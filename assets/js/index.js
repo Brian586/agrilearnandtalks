@@ -1,6 +1,7 @@
 import services from "./data/services.js";
 import activities from "./data/activities.js";
 import testimonials from "./data/testimonials.js";
+import blogs from "./data/blogs.js";
 
 function separateLastWord(text) {
     const words = text.split(' '); // Split the string into an array of words
@@ -84,5 +85,65 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
         `;
         testimonialsContainer.innerHTML += testimonialHTML;
+    });
+
+    const blogsListContainer = document.getElementById('blogs-list-container');
+
+    const blogSummary = `
+     <div class="col-xl-6 col-md-12 mb-30">
+        <div class="blog-style-one">
+            <div class="thumb">
+                <img src="assets/img/blog/5.jpg" alt="Agri Learn and Talks Blog"
+                    style="min-height: 500px; object-fit: cover;">
+                <div class="overlay text-light">
+                    <h3 class="post-title"><a href="#">Blog Posts</a></h3>
+                    <p>
+                        Stay tuned for our upcoming blog posts where we will share valuable insights,
+                        success stories, and practical tips on climate-smart agriculture and sustainable
+                        farming practices.
+                    </p>
+                    <a href="blog-single-with-sidebar.html" class="button-regular">
+                        Continue Reading <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    `;
+
+    blogsListContainer.innerHTML = ''; // Clear existing content
+
+    blogsListContainer.innerHTML += blogSummary;
+
+    blogs.forEach(blog => {
+        const blogHTML = `
+        <div class="col-xl-3 col-md-6 mb-30">
+            <div class="blog-style-one">
+                <div class="thumb">
+                    <a href="blog-details.html?id=${blog.id}"><img src="${blog.images[0]}"
+                            alt="${blog.title}" style="max-height: 250px; width: 100%; object-fit: cover;"></a>
+                    <div class="date"><strong>${blog.date.day}</strong> <span>${blog.date.month}, ${blog.date.year}</span></div>
+                </div>
+                <div class="info">
+                    <div class="meta">
+                        <ul>
+                            <li>
+                                <a href="#">${blog.author}</a>
+                            </li>
+                            <li>
+                                ${blog.date.day} ${blog.date.month}, ${blog.date.year}
+                            </li>
+                        </ul>
+                    </div>
+                    <h3 class="post-title"><a href="blog-details.html?id=${blog.id}">${blog.title}</a></h3>
+                    <a href="blog-details.html?id=${blog.id}" class="button-regular">
+                        Continue Reading <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        `;
+
+        blogsListContainer.innerHTML += blogHTML;
     });
 });
