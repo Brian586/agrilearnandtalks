@@ -647,7 +647,7 @@
                                     <div class="form-group">
                                         <input class="form-control" id="name" name="name" placeholder="Name"
                                             type="text">
-                                        <span class="alert-error"></span>
+                                        <span class="alert-error" id="name-error"></span>
                                     </div>
                                 </div>
                             </div>
@@ -656,14 +656,14 @@
                                     <div class="form-group">
                                         <input class="form-control" id="email" name="email" placeholder="Email*"
                                             type="email">
-                                        <span class="alert-error"></span>
+                                        <span class="alert-error" id="email-error"></span>
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="form-group">
                                         <input class="form-control" id="phone" name="phone" placeholder="Phone"
                                             type="text">
-                                        <span class="alert-error"></span>
+                                        <span class="alert-error" id="phone-error"></span>
                                     </div>
                                 </div>
                             </div>
@@ -672,13 +672,14 @@
                                     <div class="form-group comments">
                                         <textarea class="form-control" id="comments" name="comments"
                                             placeholder="Type here..."></textarea>
+                                        <span class="alert-error" id="comments-error"></span>
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <button name="submit" id="submit">
-                                        <i class="fa fa-paper-plane"></i> Get in Touch
+                                    <button name="submit" id="submit" type="submit">
+                                        <i class="fa fa-paper-plane"></i> <span id="submit-text">Get in Touch</span>
                                     </button>
                                 </div>
                             </div>
@@ -1004,6 +1005,7 @@
     <script src="assets/js/main.js"></script>
     <script src="assets/js/index.js" type="module"></script>
     <script src="assets/js/footer.js" type="module"></script>
+    <script src="assets/js/contact-us.js" type="module"></script>
 
 
 </body>
